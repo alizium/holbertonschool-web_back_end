@@ -1,8 +1,20 @@
 #!/usr/bin/env python3
 
-"""Basic annotations - floor."""
+"""
+This module provides a function to compute the floor of a float value.
+"""
+
+import math
 
 
 def floor(n: float) -> int:
-    """Type-annotated function that returns the floor of a float."""
-    return int(n)
+    """
+    Compute the floor of a float.
+
+    Args:
+        n (float): The float value to process.
+
+    Returns:
+        int: The largest integer less than or equal to the input float.
+    """
+    return math.floor(n)
