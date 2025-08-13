@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Tools / data
+dump/
+mongodata/
+
+# IDE / OS
+.vscode/
+.DS_Store
+*.log
