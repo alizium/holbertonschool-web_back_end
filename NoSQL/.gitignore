@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python
 __pycache__/
 *.pyc
@@ -11,3 +12,6 @@ mongodata/
 .vscode/
 .DS_Store
 *.log
+=======
+*.venv
+>>>>>>> 2049d40 (1k de commit)
