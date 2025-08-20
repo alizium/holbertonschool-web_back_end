@@ -1,6 +1,3 @@
-// On crée un symbole privé pour le clonage
-const _clone = Symbol('clone');
-
 // On exporte la classe Car
 export default class Car {
   // Le constructeur reçoit : brand, motor, color
