@@ -8,7 +8,10 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
   return Promise.allSettled([p1, p2]).then((results) =>
     results.map((res) => ({
       status: res.status,
-      value: res.status === 'fulfilled' ? res.value : res.reason,
+      value:
+        res.status === 'fulfilled'
+          ? res.value
+          : (res.reason && res.reason.message) ? res.reason.message : res.reason,
     }))
   );
 }
